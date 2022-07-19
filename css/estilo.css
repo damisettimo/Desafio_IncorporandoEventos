@@ -1,0 +1,535 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+/* line 9, ../TTTTTTT/sass/_estructura.scss */
+body .hinchada {
+  display: flex;
+  margin: auto;
+  padding: 7px;
+}
+
+/* line 15, ../TTTTTTT/sass/_estructura.scss */
+body .imgnob2 {
+  align-items: left;
+  padding: 7px;
+}
+
+/* line 22, ../TTTTTTT/sass/_estructura.scss */
+body .tienda {
+  display: flex;
+  margin: auto;
+  padding: 3px;
+}
+
+/* line 28, ../TTTTTTT/sass/_estructura.scss */
+body .card {
+  display: flex;
+  margin: auto;
+}
+
+/* line 31, ../TTTTTTT/sass/_estructura.scss */
+body .card-img-top {
+  display: flex;
+  margin: auto;
+}
+
+/* line 34, ../TTTTTTT/sass/_estructura.scss */
+body .videosyoutube {
+  display: flex;
+}
+
+/* line 37, ../TTTTTTT/sass/_estructura.scss */
+body .iframe {
+  display: flex;
+  margin: auto;
+  padding: 7px;
+}
+
+/* line 41, ../TTTTTTT/sass/_estructura.scss */
+body .slider-frame {
+  margin: 50px auto 0;
+}
+
+/* line 45, ../TTTTTTT/sass/_estructura.scss */
+body .slider-frame ul {
+  display: flex;
+  padding: 0;
+}
+
+/* line 50, ../TTTTTTT/sass/_estructura.scss */
+body .formunob {
+  padding: 1.3em;
+  margin: 0 auto;
+}
+
+/* line 54, ../TTTTTTT/sass/_estructura.scss */
+body .fixture {
+  display: flex;
+  margin: auto;
+  padding: 3px;
+}
+
+/* line 60, ../TTTTTTT/sass/_estructura.scss */
+body #carouselExampleControls {
+  margin: 0 auto;
+}
+
+/* line 63, ../TTTTTTT/sass/_estructura.scss */
+body .imgcamp {
+  display: flex;
+}
+
+/* line 67, ../TTTTTTT/sass/_estructura.scss */
+body footer {
+  display: flex;
+  padding: 3px;
+}
+
+/* line 73, ../TTTTTTT/sass/_estructura.scss */
+body .flex-row {
+  display: flex;
+}
+
+/* line 78, ../TTTTTTT/sass/_estructura.scss */
+body .flex-column {
+  display: flex;
+}
+
+/* line 83, ../TTTTTTT/sass/_estructura.scss */
+body .noticia, body .seccion1 {
+  margin: 4px;
+}
+
+/* line 1, ../TTTTTTT/sass/_detalles.scss */
+.hinchada, .videosyoutube, .iframe {
+  border: 4px;
+  max-width: 100%;
+}
+
+/* line 8, ../TTTTTTT/sass/_detalles.scss */
+.seccion1 .titulo {
+  font-family: 'Anton', sans-serif;
+  font-weight: 100;
+}
+
+/* line 12, ../TTTTTTT/sass/_detalles.scss */
+.seccion1 p {
+  font-family: 'Anton', sans-serif;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Tapestry', cursive;
+  color: #423c3c;
+}
+
+/* line 18, ../TTTTTTT/sass/_detalles.scss */
+.seccion1 .titulo2 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 100;
+}
+
+/* line 24, ../TTTTTTT/sass/_detalles.scss */
+.seccion1 .sechistoria p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* line 32, ../TTTTTTT/sass/_detalles.scss */
+.noticia h3 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* line 37, ../TTTTTTT/sass/_detalles.scss */
+.noticia h4 {
+  font-size: 18px;
+}
+
+/* line 43, ../TTTTTTT/sass/_detalles.scss */
+.hinchada {
+  border-radius: 20px;
+}
+
+/* line 48, ../TTTTTTT/sass/_detalles.scss */
+.imgnob2 {
+  border-radius: 20px;
+  border: 4px;
+  max-width: 50%;
+}
+
+/* line 55, ../TTTTTTT/sass/_detalles.scss */
+#carouselExampleControls {
+  width: 100%;
+}
+
+/* line 58, ../TTTTTTT/sass/_detalles.scss */
+.carousel {
+  margin-top: 10px;
+}
+
+/* line 60, ../TTTTTTT/sass/_detalles.scss */
+.carousel .img-carousel {
+  max-width: 100%;
+}
+
+/* line 68, ../TTTTTTT/sass/_detalles.scss */
+.tiendoficial {
+  text-align: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+/* line 73, ../TTTTTTT/sass/_detalles.scss */
+.tienda {
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* line 79, ../TTTTTTT/sass/_detalles.scss */
+.card {
+  align-items: center;
+  align-content: center;
+}
+
+/* line 83, ../TTTTTTT/sass/_detalles.scss */
+.card-img-top {
+  align-items: center;
+  width: 200px;
+}
+
+/* line 87, ../TTTTTTT/sass/_detalles.scss */
+.videosyoutube {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* line 93, ../TTTTTTT/sass/_detalles.scss */
+.videosdestacados {
+  font-size: 30px;
+}
+
+/* line 102, ../TTTTTTT/sass/_detalles.scss */
+.tituloglorias {
+  text-align: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+/* line 111, ../TTTTTTT/sass/_detalles.scss */
+.slider-frame {
+  width: 300px;
+  height: auto;
+  overflow: hidden;
+}
+
+/* line 116, ../TTTTTTT/sass/_detalles.scss */
+.slider-frame ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: slide 20s infinite alternate ease-in-out;
+}
+
+/* line 124, ../TTTTTTT/sass/_detalles.scss */
+.slider-frame li {
+  width: 100%;
+  list-style: none;
+}
+
+/* line 129, ../TTTTTTT/sass/_detalles.scss */
+.slider-frame img {
+  width: 100%;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+
+/* line 147, ../TTTTTTT/sass/_detalles.scss */
+.formulario {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* line 154, ../TTTTTTT/sass/_detalles.scss */
+.formunob {
+  max-width: 25em;
+  font-weight: bold;
+  box-shadow: inset 1px  1px 22px 4px;
+}
+
+/* line 160, ../TTTTTTT/sass/_detalles.scss */
+.fixture {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* line 169, ../TTTTTTT/sass/_detalles.scss */
+.imgcamp {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* line 175, ../TTTTTTT/sass/_detalles.scss */
+footer {
+  justify-content: space-around;
+  flex-direction: column;
+  font-size: 15px;
+  font-family: 'Anton', sans-serif;
+  flex-wrap: wrap;
+}
+
+/* line 184, ../TTTTTTT/sass/_detalles.scss */
+.flex-row {
+  flex-wrap: wrap;
+}
+
+/* line 187, ../TTTTTTT/sass/_detalles.scss */
+.leyendapie {
+  text-align: center;
+}
+
+/* line 193, ../TTTTTTT/sass/_detalles.scss */
+.flex-row {
+  justify-content: space-between;
+}
+
+/* line 200, ../TTTTTTT/sass/_detalles.scss */
+.animacionunite {
+  text-align: center;
+  color: black;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 32px;
+  overflow: hidden;
+}
+
+/* line 211, ../TTTTTTT/sass/_detalles.scss */
+.divan2 {
+  color: white;
+}
+
+/* line 217, ../TTTTTTT/sass/_detalles.scss */
+.divan {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  color: white;
+}
+
+/* line 224, ../TTTTTTT/sass/_detalles.scss */
+.divan:first-of-type {
+  /* For increasing performance 
+                           ID/Class should've been used. 
+                           For a small demo 
+                           it's okaish for now */
+  animation: showup 7s infinite;
+}
+
+/* line 231, ../TTTTTTT/sass/_detalles.scss */
+.divan:last-of-type {
+  width: 0px;
+  animation: reveal 7s infinite;
+}
+
+/* line 236, ../TTTTTTT/sass/_detalles.scss */
+.divan:last-of-type span {
+  margin-left: -355px;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: -800px;
+  }
+  20% {
+    margin-left: -800px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
+    width: 355px;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    width: 355px;
+  }
+}
+
+/* line 5, ../TTTTTTT/sass/_colores.scss */
+body .encabezado {
+  background: url(../imagenes/fondofan.jpg);
+}
+
+/* line 11, ../TTTTTTT/sass/_colores.scss */
+body .sechistoria .titulocamp {
+  color: #d30b0b;
+}
+
+/* line 14, ../TTTTTTT/sass/_colores.scss */
+body .sechistoria .titulocamp span {
+  color: black;
+}
+
+/* line 17, ../TTTTTTT/sass/_colores.scss */
+body .sechistoria .titulocamp .titulo {
+  color: #d30b0b;
+}
+
+/* line 25, ../TTTTTTT/sass/_colores.scss */
+body section .titulo {
+  color: #d30b0b;
+}
+
+/* line 27, ../TTTTTTT/sass/_colores.scss */
+body section .titulo span {
+  color: black;
+}
+
+/* line 31, ../TTTTTTT/sass/_colores.scss */
+body section .titulo2 {
+  color: #d30b0b;
+}
+
+/* line 38, ../TTTTTTT/sass/_colores.scss */
+body .liga {
+  background-color: black;
+}
+
+/* line 42, ../TTTTTTT/sass/_colores.scss */
+body .tiendaoficial {
+  background-color: #d30b0b;
+}
+
+/* line 45, ../TTTTTTT/sass/_colores.scss */
+body .display-2 {
+  color: white;
+}
+
+/* line 47, ../TTTTTTT/sass/_colores.scss */
+body .videosyoutube {
+  background-color: black;
+}
+
+/* line 50, ../TTTTTTT/sass/_colores.scss */
+body .tituloglorias {
+  color: white;
+}
+
+/* line 53, ../TTTTTTT/sass/_colores.scss */
+body .formulario {
+  background-image: url("../imagenes/tribuna.jpg");
+  color: white;
+}
+
+/* line 57, ../TTTTTTT/sass/_colores.scss */
+body .formulario .formunob {
+  background-color: rgba(120, 119, 123, 0.3);
+}
+
+/* line 64, ../TTTTTTT/sass/_colores.scss */
+body .fixture {
+  color: black;
+  background-image: url("../imagenes/jugadores.jpg");
+}
+
+/* line 71, ../TTTTTTT/sass/_colores.scss */
+body .noticia h3 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* line 76, ../TTTTTTT/sass/_colores.scss */
+body .noticia h4 {
+  color: grey;
+}
+
+/* line 82, ../TTTTTTT/sass/_colores.scss */
+body footer {
+  background: #d30b0b;
+}
+
+/* line 84, ../TTTTTTT/sass/_colores.scss */
+body footer a {
+  color: #383636;
+}
+
+/* line 88, ../TTTTTTT/sass/_colores.scss */
+body footer h4 {
+  color: black;
+}
+
+/* line 91, ../TTTTTTT/sass/_colores.scss */
+body footer .leyendapie {
+  background-color: black;
+  color: #d30b0b;
+}
+
+/* line 96, ../TTTTTTT/sass/_colores.scss */
+body .glorias {
+  background: url(../imagenes/fondonob.jpg);
+}
+
+/*# sourceMappingURL=estilo.css.map */
